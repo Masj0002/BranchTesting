@@ -9,9 +9,6 @@ public abstract class Animal {
 
     public abstract void showMood(boolean glad);
 
-    public void getName(){
-        return name;
-    }
 
 
 

@@ -6,6 +6,8 @@ public class Main {
         cawt.makeSound();
 
         dawg.eat("Meat");
-        cawt.eat("Fish");
+        cawt.eat("fish");
+        cawt.showMood(false);
+        dawg.showMood(true);
     }
 }
