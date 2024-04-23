@@ -4,5 +4,8 @@ public class Main {
         dawg.makeSound();
         Cat cawt = new Cat();
         cawt.makeSound();
+
+        dawg.eat("Meat");
+        cawt.eat("Fish");
     }
 }
