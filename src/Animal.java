@@ -1,4 +1,4 @@
-abstract class Animal {
+public abstract class Animal {
     private String name;
     public abstract void makeSound();
 
@@ -6,6 +6,13 @@ abstract class Animal {
     public  boolean eat(String foodType){
         return true;
     }
+
+    public abstract void showMood(boolean glad);
+
+    public void getName(){
+        return name;
+    }
+
 
 
 
